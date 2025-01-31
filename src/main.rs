@@ -1,6 +1,6 @@
 mod days;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Running main");
     days::day01::run();
 }
