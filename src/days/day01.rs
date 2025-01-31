@@ -1,6 +1,5 @@
 
 
-use itertools::Itertools;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 const NUMS: [&str; 9] = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
