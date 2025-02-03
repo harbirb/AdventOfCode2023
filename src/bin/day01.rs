@@ -4,7 +4,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 const NUMS: [&str; 9] = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
-pub fn run() {
+pub fn main() {
     let now = std::time::Instant::now();
     let file = File::open("inputs/day01.txt").unwrap();
     let reader = BufReader::new(file);  
